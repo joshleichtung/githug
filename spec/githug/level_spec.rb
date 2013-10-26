@@ -94,7 +94,7 @@ end
 
   describe "test" do
     it "should call solve" do
-      @level.instance_variable_get("@solution").should_receive(:call)
+      @level.should_receive(:_solution)
       @level.test
     end
   end

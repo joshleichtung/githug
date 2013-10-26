@@ -17,8 +17,6 @@ solution do
 
   puts "Your config has the following name: #{config_name}"
   puts "Your config has the following email: #{config_email}"
-
-  valid
 end
 
 hint do
